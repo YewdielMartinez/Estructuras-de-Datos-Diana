@@ -6,17 +6,7 @@
 std::vector<int> g_vector = {5, 8, 10, 13, 15, 18, 20, 23, 25, 29, 32, 36, 40, 42, 47, 51, 55, 63, 66};
 int g_num_datos = static_cast<int>(g_vector.size());
 
-void mostrar_vector(std::vector<int> g_vector){
-    std::system("cls");
-    std::cout<<"\n=------- Mostrar vector -------=\n";
-    std::cout<<"\n";
-    for (int i {0}; i < g_num_datos; i++){
-        std::cout<<"Posicion "<<i + 1<<" = "<<g_vector[i]<<'\n';   
-    }
-    std::cout<<"\n=---------------------------=\n";
-    std::system("pause");
-    std::system("cls");
-}
+
 
 void busqueda_secu(std::vector<int> g_vector){
     std::system("cls");
